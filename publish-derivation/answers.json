@@ -1,0 +1,33 @@
+{
+    "variabilityModel": "d:\\Projects\\Mobioos_new\\smartapp-packages\\kirrk4events\\variability-model.json",
+    "isAbsolutePath": false,
+    "ResourcesPath": "resources/files",
+    "functionalityConfiguration": [
+        "UnlockTheTrunk",
+        "ManagingHeadlights",
+        "StartEngine",
+        "SensitivityShockDetection",
+        "FrontLight",
+        "SecureConnection"
+    ],
+    "fileResourceConfiguration": [
+        {
+            "Name": "AppBackgoudImage",
+            "FileName": "mini_jaguar-f-type.jpg",
+            "Value": "d:\\Projects\\Mobioos_new\\smartapp-packages\\resources\\files\\mini_jaguar-f-type.jpg"
+        }
+    ],
+    "textResourceConfiguration": [
+        {
+            "Name": "AppPackageName",
+            "Value": "Kirrk4Events"
+        }
+    ],
+    "assetResourceConfiguration": [],
+    "colorResourceConfiguration": [
+        {
+            "Name": "AppButtonsColor",
+            "Value": "#39d54b"
+        }
+    ]
+}

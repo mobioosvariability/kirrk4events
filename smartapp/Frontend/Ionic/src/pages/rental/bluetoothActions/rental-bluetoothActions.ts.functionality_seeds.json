@@ -1,0 +1,20 @@
+{
+    "seeds": [
+        {
+            "analyzer": "Language Server Protocol",
+            "featureName": "SecureConnection",
+            "startLine": 76,
+            "startColumn": 10,
+            "endLine": 76,
+            "endColumn": 21
+        },
+        {
+            "analyzer": "Language Server Protocol",
+            "featureName": "UnlockTheTrunk",
+            "startLine": 108,
+            "startColumn": 9,
+            "endLine": 108,
+            "endColumn": 20
+        }
+    ]
+}

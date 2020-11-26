@@ -1,0 +1,20 @@
+.alert-message {
+  padding: 8px 0px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+
+  &.warning {
+    background-color: #fee6c8;
+    color: #dc5544;
+  }
+
+  &.info {
+    background-color: #ece5fe;
+    color: #180b3f;
+  }
+}
+
+.alert-button.sc-ion-alert-ios {
+  color: #3880ff !important;
+}

@@ -1,0 +1,97 @@
+
+<!--
+  You should add your licence here, here is an example :
+
+  SonarQube, open source software quality management tool.
+  Copyright (C) 2008-2013 SonarSource
+  mailto:contact AT sonarsource DOT com
+
+  SonarQube is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 3 of the License, or (at your option) any later version.
+ 
+  SonarQube is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+ 
+  You should have received a copy of the GNU Lesser General Public License
+  along with this program; if not, write to the Free Software Foundation,
+  Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+<!--
+  That header enables the integration of a menu in the page.
+  It should be a combinaison of a concern designed as a global
+  menu and a specific menu defined in the current concern as
+  isVisibleInMenu.
+-->
+<ion-header no-border>
+    <ion-toolbar color="medium">
+      <ion-buttons slot="start">
+          <button ion-button margin-top margin-left icon-only (click)="goBack()">
+              <ion-icon name="arrow-back" ></ion-icon>
+          </button>
+          <a class="need-help-class" color="secondary" margin>Need help ?</a> 
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+  
+  <ion-content scrollY="false" scrollX="false">
+    <div class="vehicle-container">
+      <div class="vehicle-details">
+        <ion-grid padding>
+          <ion-row no-padding>
+            <ion-label color="tertiary">
+              <h3><strong>Locate your Jaguar F-Type</strong></h3>
+            </ion-label>
+          </ion-row>
+          <ion-row no-padding>
+            <ion-col >
+              <ion-label color="quaternary">
+                <p no-margin>Black</p>
+              </ion-label>
+              <div class="vehicle-number">
+                <ion-label color="light">
+                  <h4 no-margin><strong>EB-113-VR</strong></h4>
+                </ion-label>
+              </div>
+            </ion-col>
+            <ion-col size="6" padding-top>
+              <ion-img class="car-image" src="assets/imgs/car.png" width="100%" height="100%" alt="vehicle image"></ion-img>
+            </ion-col>
+          </ion-row>
+          <ion-row class="vehicle-status" margin-top>
+            <ion-col size="6" no-padding padding-end>
+              <ion-label color="dark" no-margin>
+                <h6 no-margin><strong>80%</strong></h6>
+              </ion-label>
+              <div class="progress-outer">
+                <div class="progress-inner-distance" color="success" [style.width]="85 + '%'">
+                </div>
+              </div>
+              <ion-label color="quaternary" no-margin>
+                <p no-margin>BATTERY LEVEL</p>
+              </ion-label>
+            </ion-col>
+            <ion-col size="6" no-padding padding-start margin-left>
+                <ion-label color="dark" no-padding no-margin>
+                  <h6 no-margin><strong>950km</strong></h6>
+                </ion-label>
+                <ion-label color="quaternary" no-padding no-margin>
+                  <p no-margin>MILEAGE</p>
+                </ion-label>
+              </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="vehicle-map">
+      </div>
+    </div>
+  </ion-content>
+  
+  <ion-footer padding no-border shadow>
+    <button class="btn-custom" ion-button (click)="onConnectToVehicle()" large full color="tertiary" no-margin>
+      Connect to my vehicle</button>
+  </ion-footer>
+  

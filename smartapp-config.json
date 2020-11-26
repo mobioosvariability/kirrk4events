@@ -1,0 +1,26 @@
+{
+    "smartAppName": "Kirrk4Events_Sprint3",
+    "version": "1.0.0",
+    "tags": [
+        "demo",
+        " rental"
+    ],
+    "description": "des...",
+    "projectStructure": [
+        {
+            "stack": "Frontend",
+            "name": "Ionic",
+            "sourcePath": "smartapp/Frontend/Ionic"
+        }
+    ],
+    "build": [
+        "build/build.json"
+    ],
+    "assets": [
+        "assets/assets.json"
+    ],
+    "publishDerivation": [],
+    "featureModel": "variability-model.json",
+    "propagations": "propagations.json",
+    "configurations": []
+}

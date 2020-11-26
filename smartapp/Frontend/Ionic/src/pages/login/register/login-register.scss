@@ -1,0 +1,51 @@
+.btn-custom {
+  border-radius: 5px;
+  text-transform: none;
+}
+
+.color-dark {
+  color: #180c3f !important
+}
+
+.color-quaternary {
+  color: #7A7089 !important
+}
+
+.input-custom {
+  color: #180c3f !important;
+  line-height: 22px;
+  font-weight: 500;
+  padding-bottom: 10px !important;
+  font-size: 18px;
+}
+
+.ion-content {
+  background: #fafafa;
+}
+
+.col-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.list-border-top-bottom {
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.validator-error {
+  padding: 5px 5px 5px 15px;
+  background-color: rgba(179, 62, 48, 0.1);
+  color: #b33e30;
+  font-size: 13px;
+  font-weight: 300;
+}

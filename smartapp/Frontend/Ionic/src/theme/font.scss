@@ -1,0 +1,70 @@
+$font-path: "assets/fonts";
+
+@font-face {
+  font-family: 'geomanist';
+  src: url('#{$font-path}/geomanist-book.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}/geomanist-book.woff') format('woff'),
+  url('#{$font-path}/geomanist-book.ttf') format('truetype'),
+  url('#{$font-path}/geomanist-book.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geomanist';
+  src: url('#{$font-path}/geomanist-regular.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}/geomanist-regular.woff') format('woff'),
+  url('#{$font-path}/geomanist-regular.ttf') format('truetype'),
+  url('#{$font-path}/geomanist-regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geomanist';
+  src: url('#{$font-path}/geomanist-medium.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}/geomanist-medium.woff') format('woff'),
+  url('#{$font-path}/geomanist-medium.ttf') format('truetype'),
+  url('#{$font-path}/geomanist-medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geomanist';
+  src: url('#{$font-path}/geomanist-bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}/geomanist-bold.woff') format('woff'),
+  url('#{$font-path}/geomanist-bold.ttf') format('truetype'),
+  url('#{$font-path}/geomanist-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+html {
+  --ion-font-family: geomanist !important;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+}
+
+ion-card-subtitle {
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+.txt-secondary {
+  color: --ion-color-secondary;
+}

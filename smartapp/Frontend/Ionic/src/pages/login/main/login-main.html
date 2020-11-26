@@ -1,0 +1,43 @@
+
+<!--
+  You should add your licence here, here is an example :
+
+  SonarQube, open source software quality management tool.
+  Copyright (C) 2008-2013 SonarSource
+  mailto:contact AT sonarsource DOT com
+
+  SonarQube is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 3 of the License, or (at your option) any later version.
+
+  SonarQube is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with this program; if not, write to the Free Software Foundation,
+  Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+<!--
+  That header enables the integration of a menu in the page.
+  It should be a combinaison of a concern designed as a global
+  menu and a specific menu defined in the current concern as
+  isVisibleInMenu.
+-->
+<ion-content class="welcome-page welcome-page-background" scrollX="false" scrollY="false">
+  <img class="welcome-page-logo" src="assets/logo/kirrk-white-logo.svg" />
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="light" padding text-center>
+      <button class="btn-custom" ion-button color="dark" large full (click)="onGoToRegister()" no-margin margin-bottom>
+        Create your account
+      </button>
+      <div padding>
+          <span>Already registered ?</span>
+          <a (click)="onGoToSignIn()"><span color="primary">&nbsp;<strong>Sign in</strong></span></a>
+      </div>
+  </ion-toolbar>
+</ion-footer>

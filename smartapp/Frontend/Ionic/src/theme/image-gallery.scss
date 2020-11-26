@@ -1,0 +1,31 @@
+.image-gallery {
+  ion-grid {
+    ion-row {
+      margin: 0px -5px;
+
+      ion-col {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+        .thumbnail-image {
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          object-fit: cover;
+          background-color: var(--ion-color-medium);
+          border-radius: 4px;
+          -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .14);
+          -moz-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .14);
+          box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .14);
+        }
+
+        &:after {
+          content: ' ';
+          padding-top: 100%;
+          display: table;
+        }
+      }
+    }
+  }
+}

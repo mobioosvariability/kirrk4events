@@ -1,0 +1,45 @@
+ion-input,
+ion-datetime,
+ion-select {
+  --placeholder-color: #928ca7;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+ion-item {
+  ion-label {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+  }
+
+  ion-input,
+  ion-datetime {
+    margin-top: 4px;
+    margin-bottom: 16px;
+  }
+
+  ion-select {
+    padding-top: 4px;
+    margin-bottom: 5px;
+  }
+}
+
+.error-message {
+  padding: 8px 0;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+
+  &.danger {
+    background-color: rgba(var(--ion-color-danger-rgb), 0.1);
+    color: var(--ion-color-danger);
+  }
+}
+
+.form-information {
+  font-size: 13px;
+}

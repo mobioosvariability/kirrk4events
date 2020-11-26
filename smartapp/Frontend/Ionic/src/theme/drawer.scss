@@ -1,0 +1,7 @@
+ion-modal{
+  &.upgrade-vehicle-modal{
+    --height:60% !important;
+    --ion-background-color:transparent !important;
+    align-items: flex-end;
+  }
+}

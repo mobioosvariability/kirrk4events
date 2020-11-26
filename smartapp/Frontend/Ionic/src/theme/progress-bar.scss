@@ -1,0 +1,12 @@
+.progress-bar{
+  ion-text{
+    h6{
+      font-size: 14px;
+    }
+  }
+  ion-progress-bar{
+    --buffer-background:#e8e8e8;
+    height: 8px;
+    border-radius: 4px;
+  }
+}

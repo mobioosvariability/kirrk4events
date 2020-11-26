@@ -1,0 +1,12 @@
+{
+    "seeds": [
+        {
+            "analyzer": "Resource Analyzer",
+            "featureName": "AppBackgroundImage",
+            "startLine": 3,
+            "startColumn": 23,
+            "endLine": 3,
+            "endColumn": 63
+        }
+    ]
+}

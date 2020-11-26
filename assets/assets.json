@@ -1,0 +1,9 @@
+[
+  {
+    "Value": "name ",
+    "Category": "Deployment",
+    "DataType": "string",
+    "Type": "smartApp",
+    "Mandatory": true
+  }
+]

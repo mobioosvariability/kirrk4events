@@ -1,0 +1,23 @@
+ion-toolbar {
+  &.ion-color {
+    ion-segment {
+      ion-segment-button {
+        &.segment-button-checked {
+          --indicator-color-checked: #a17afc !important;
+          --color-checked: #a17afc !important;
+
+          ion-label {
+            color: var(--ion-color-light) !important;
+          }
+        }
+
+        ion-label {
+          letter-spacing: 0;
+          font-size: 15px;
+          font-weight: 500;
+          text-transform: none;
+        }
+      }
+    }
+  }
+}

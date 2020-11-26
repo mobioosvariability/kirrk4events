@@ -1,0 +1,29 @@
+ion-chip {
+  --background: rgba(234, 233, 238, 1);
+  --color: rgba(128, 120, 150, 1);
+  border-radius: 4px;
+  height: auto;
+  padding: 2px 4px;
+  border: 0;
+
+  &.ion-color-danger {
+    background: var(--ion-color-danger-tint);
+  }
+
+  &.ion-color-warning {
+    background: var(--ion-color-warning-tint);
+  }
+
+  &.ion-color-success {
+    background: var(--ion-color-success-tint);
+  }
+
+  ion-label {
+    margin-top: inherit;
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 2px 4px;
+  }
+
+}

@@ -1,0 +1,42 @@
+
+<!--
+  You should add your licence here, here is an example :
+
+  SonarQube, open source software quality management tool.
+  Copyright (C) 2008-2013 SonarSource
+  mailto:contact AT sonarsource DOT com
+
+  SonarQube is free software; you can redistribute it and/or
+  modify it under the terms of the GNU Lesser General Public
+  License as published by the Free Software Foundation; either
+  version 3 of the License, or (at your option) any later version.
+ 
+  SonarQube is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  Lesser General Public License for more details.
+ 
+  You should have received a copy of the GNU Lesser General Public License
+  along with this program; if not, write to the Free Software Foundation,
+  Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+      {{ "applicationTitle" | translate }}
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="onLanguage()">
+        <ion-icon name="settings"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Language preference</h1> 
+  <ion-item-group>
+    <ion-item (click)="changeLanguage('En')">En</ion-item>
+    <ion-item (click)="changeLanguage('Fr')">Fr</ion-item>
+  </ion-item-group>
+</ion-content>

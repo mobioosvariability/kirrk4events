@@ -1,0 +1,17 @@
+ion-content {
+  --background: var(--ion-color-medium);
+
+  .infographics {
+    width: 100%;
+    margin: 3em auto 0px auto;
+  }
+
+  .ion-color-light-blue {
+    color: rgba(var(--ion-color-dark-rgb), 0.5);
+  }
+
+  .ion-color-quaternary {
+    color: var(--ion-color-quaternary);
+  }
+
+}

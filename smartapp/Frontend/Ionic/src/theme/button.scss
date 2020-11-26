@@ -1,0 +1,22 @@
+button{
+  &.button{
+    &.button-large{
+      font-size: 18px;
+      height: 3em;
+    }
+  }
+}
+
+.no-network-connection{
+  .no-network-button-disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+}
+
+.disabled-button{
+  color: color($colors, quaternary, base) !important;
+  pointer-events:none;
+  opacity: 0.7;
+}
