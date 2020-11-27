@@ -1,9 +1,0 @@
-{
-    "fsPath": "d:\\Projects\\Mobioos_new\\smartapp-packages\\kirrk4events\\replacement-library.json",
-    "replacements": [
-        {
-            "id": "ConnectionWiwtoutSecurity",
-            "content": "private connectToVehicle() {\r\n  this.ble.connect(this.deviceId).subscribe(\r\n    (res) => {\r\n      console.log('Connect :: ', res);\r\n      this.peripheral = res\r\n      this.presentConnectToast();\r\n    },\r\n    (err) => {\r\n      this.presentAlert(err.errorMessage);\r\n    }\r\n  );\r\n}"
-        }
-    ]
-}

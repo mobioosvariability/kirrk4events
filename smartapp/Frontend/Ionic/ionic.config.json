@@ -1,8 +1,0 @@
-{
-  "name": "Kirrk4Events",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular",
-  "id": "Kirrk4Events"
-}
